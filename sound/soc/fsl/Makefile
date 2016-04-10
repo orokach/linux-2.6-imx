@@ -61,6 +61,7 @@ snd-soc-imx-sgtl5000-objs := imx-sgtl5000.o
 snd-soc-imx-wm8958-objs := imx-wm8958.o
 snd-soc-imx-wm8960-objs := imx-wm8960.o
 snd-soc-imx-wm8962-objs := imx-wm8962.o
+snd-soc-imx-tlv320aic3x-objs := imx-tlv320aic3x.o
 snd-soc-imx-sii902x-objs := imx-sii902x.o
 snd-soc-imx-spdif-objs := imx-spdif.o
 snd-soc-imx-mc13783-objs := imx-mc13783.o
