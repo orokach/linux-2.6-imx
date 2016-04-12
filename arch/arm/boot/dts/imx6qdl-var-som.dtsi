@@ -124,7 +124,9 @@
 			"Headphone Jack",       "HPLOUT",
 			"Headphone Jack",       "HPROUT",
 			"Line In Jack",		"LINE1L",
-			"Line In Jack",		"LINE1R";
+			"Line In Jack",		"LINE1R",
+			"Playback",		"CPU-Playback",
+			"CPU-Capture",		"Capture";
 		mux-int-port = <2>;
 		mux-ext-port = <3>;
 	};
@@ -462,7 +464,9 @@
 				/* Wifi Slow Clock */
 				MX6QDL_PAD_ENET_RXD0__OSC32K_32K_OUT		0x000b0			/* WIFI Slow clock */
 				/* Audio Clock */
-				MX6QDL_PAD_GPIO_0__CCM_CLKO1 			0x130b0			/* Audio Codec Clock */
+				MX6QDL_PAD_GPIO_0__CCM_CLKO1 			0x130b0
+				/* Audio Reset */
+				MX6QDL_PAD_GPIO_19__GPIO4_IO05			0x130b0
 				/* Camera Clock */
 				MX6QDL_PAD_GPIO_3__CCM_CLKO2			0x130b0			/* Camera MCLK */
 			>;
