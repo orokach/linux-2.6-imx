@@ -57,6 +57,8 @@ static const struct snd_soc_dapm_widget imx_tlv320aic3x_dapm_widgets[] = {
 	SND_SOC_DAPM_MIC("Mic Jack", NULL),
 	SND_SOC_DAPM_LINE("Line In Jack", NULL),
 	SND_SOC_DAPM_HP("Headphone Jack", NULL),
+	SND_SOC_DAPM_SPK("Line Out Jack", NULL),
+	SND_SOC_DAPM_SPK("Ext Spk", NULL),
 };
 
 static int imx_tlv320aic3x_audmux_config(struct platform_device *pdev)
