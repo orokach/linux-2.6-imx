@@ -425,13 +425,11 @@
 		};
 #else
 	ctw6120_tsc@38 {
-		compatible = "fsl,ctw6120-tsc";
+		compatible = "edt,edt-ft5206";
                         reg = <0x38>;
                         interrupt-parent = <&gpio3>;
                         interrupts = <7 0>;
 
-		x-size = <800>;
-		y-size = <480>;
                 };
 #endif
         /* DS1307 RTC module */
